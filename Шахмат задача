@@ -1,0 +1,14 @@
+a=int(input("x1= "))
+b=int(input("y1= "))
+c=int(input("x2= "))
+d=int(input("y2= "))
+if a+1==c and b==d or a-1==c and b==d:
+        print("true")
+elif b+1==d and a==c or b-1==d and a==c:
+        print("true")
+elif a-1==c and b-1==d or a+1==c and b+1==d:
+        print("true")
+elif a-1==c and b+1==d or a+1==c and b-1==d:
+        print("true")
+else:
+        print("false")
